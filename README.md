@@ -2,7 +2,13 @@
 
 Use a phone with your hand instead of your fingers. The front camera watches one hand, a dot follows the middle of it, and closing your fist presses whatever the dot is on.
 
-Two versions:
+## Download the app
+
+**Direct APK:** <https://files.catbox.moe/zkctgt.apk> (about 27 MB, Android 8+, 64-bit phones)
+
+The page opens the download immediately. If your phone warns about the file, choose to keep it, allow installs from your browser or file manager, then open the APK.
+
+## Two versions
 
 - **Android app** (`hand-control/`) — the real one. Works inside the app, and optionally over other apps such as YouTube, TikTok and Instagram.
 - **Web page** (`web/`) — the same gestures in a browser, no install. Live at <https://site-161fe0c8bd6b447d8812ca0ec7d53b1f.freebuff.page>. A page can only press things on itself, so YouTube needs the app.
@@ -21,8 +27,8 @@ Camera frames are processed on the phone and thrown away. Nothing is recorded, a
 
 ## Install the app
 
-1. Download the APK (Releases tab).
-2. Allow "Install unknown apps" for your browser or file manager.
+1. Open the direct APK link above and wait for it to finish.
+2. Allow "Install unknown apps" for your browser or file manager when Android asks.
 3. Install, then open **Hand Control**.
 4. If Play Protect warns, choose **More details → Install anyway**.
 
