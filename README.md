@@ -1,17 +1,22 @@
 # Hand Control
 
-Use a phone with your hand instead of your fingers. The front camera watches one hand, a dot follows the middle of it, and closing your fist presses whatever the dot is on.
+Use a phone with your hand instead of your fingers. The front camera watches one hand, a small dot follows the middle of it, and closing your fist presses whatever the dot is on.
 
 ## Download the app
 
-**Direct APK:** <https://files.catbox.moe/zkctgt.apk> (about 27 MB, Android 8+, 64-bit phones)
+- **Download page:** <https://site-161fe0c8bd6b447d8812ca0ec7d53b1f.freebuff.page/setup> — the file plus the install steps, with a picture of every screen.
+- **Direct file:** <https://site-161fe0c8bd6b447d8812ca0ec7d53b1f.freebuff.page/app.apk> — about 29 MB, Android 8+, 64-bit phones.
 
-The page opens the download immediately. If your phone warns about the file, choose to keep it, allow installs from your browser or file manager, then open the APK.
+The link downloads immediately. If the phone warns about the file, keep it, allow installs from the browser, then open the APK. On a Samsung, turn off **Auto Blocker** first (Settings → Security and privacy), otherwise it refuses every app that is not from the Play Store.
+
+## The dot
+
+The dot is deliberately small — 24 px on the web page, a 12 dp ring in the app — so it marks a spot instead of covering it. On the web page a fist is a real press anywhere: links open, buttons work, fields focus.
 
 ## Two versions
 
-- **Android app** (`hand-control/`) — the real one. Works inside the app, and optionally over other apps such as YouTube, TikTok and Instagram.
-- **Web page** (`web/`) — the same gestures in a browser, no install. Live at <https://site-161fe0c8bd6b447d8812ca0ec7d53b1f.freebuff.page>. A page can only press things on itself, so YouTube needs the app.
+- **Android app** — the real one. Works inside the app, and optionally over other apps such as YouTube, TikTok and Instagram.
+- **Web page** — the same gestures in a browser, no install, at <https://site-161fe0c8bd6b447d8812ca0ec7d53b1f.freebuff.page>. A web page can only press things on itself, so YouTube needs the app.
 
 ## How the gestures work
 
@@ -25,14 +30,7 @@ The page opens the download immediately. If your phone warns about the file, cho
 
 Camera frames are processed on the phone and thrown away. Nothing is recorded, and the Android app declares **no internet permission** at all, so it cannot send anything anywhere.
 
-## Install the app
-
-1. Open the direct APK link above and wait for it to finish.
-2. Allow "Install unknown apps" for your browser or file manager when Android asks.
-3. Install, then open **Hand Control**.
-4. If Play Protect warns, choose **More details → Install anyway**.
-
-### Control other apps (YouTube, TikTok, Instagram)
+## Control other apps (YouTube, TikTok, Instagram)
 
 Press **Control other apps (YouTube)** in the app. It needs two permissions you grant yourself:
 
